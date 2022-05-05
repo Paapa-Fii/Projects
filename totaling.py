@@ -1,7 +1,7 @@
-# TOTALING A LIST
+# TOTALING AND AVERAGING A LIST
 
-# This program get integers from the user and
-# calculates the total of the values in a list
+# This program get integers from the user,
+# calculates the total and finds the average of the values in a list
 
 def main():
 
@@ -41,6 +41,13 @@ def main():
     
     # Display the total of the list elements.
     print('The total of the elements is', total)
+    
+#   Calculate the average of the elements
+    avg = total / len(numbers)
+
+#     Display the average of the list elements.
+    print('The average of the elements is', avg)
+
 
 # Call the main function
 main()
